@@ -1,0 +1,268 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Poppins', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  
+  --color-primary: #ff6b35;
+  --color-primary-dark: #ff5520;
+  --color-primary-light: #ff8a5e;
+  --color-secondary: #004e89;
+  --color-secondary-light: #0075ba;
+  --color-accent: #00d9ff;
+  --color-background: #ffffff;
+  --color-background-secondary: #f8f9fb;
+  --color-background-tertiary: #eef1f7;
+  --color-foreground: #0a0e27;
+  --color-foreground-secondary: #4a5568;
+  --color-foreground-tertiary: #a0aec0;
+  --color-success: #10b981;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+}
+
+* {
+  @apply transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground;
+  background-attachment: fixed;
+  font-feature-settings: "rlig" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-dark;
+}
+
+/* Modern glass effect */
+.glass {
+  @apply bg-background/40 backdrop-blur-xl border border-foreground-tertiary/10;
+}
+
+.glass-sm {
+  @apply bg-background/20 backdrop-blur-md border border-foreground-tertiary/5;
+}
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(135deg, #ff6b35 0%, #00d9ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-secondary {
+  background: linear-gradient(135deg, #004e89 0%, #0075ba 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section utilities */
+.section-title {
+  @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight;
+  font-family: 'Space Grotesk', system-ui;
+  letter-spacing: -0.02em;
+  word-spacing: 9999px;
+}
+
+.section-subtitle {
+  @apply text-base sm:text-lg md:text-xl text-foreground-secondary;
+}
+
+.section-padding {
+  @apply py-16 sm:py-20 md:py-28 lg:py-32;
+}
+
+/* Smooth animations - Production level */
+.smooth-enter {
+  animation: smoothEnter 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+@keyframes smoothEnter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.blur-fade {
+  animation: blurFadeIn 0.8s ease-out forwards;
+  opacity: 0;
+  filter: blur(10px);
+  will-change: filter, opacity;
+}
+
+@keyframes blurFadeIn {
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+
+/* Scroll trigger animations */
+.scroll-trigger {
+  opacity: 0;
+  transform: translateY(30px);
+  @apply transition-all duration-600;
+}
+
+.scroll-trigger.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover effects with GPU acceleration */
+.hover-lift {
+  @apply transition-all duration-300;
+  will-change: transform;
+}
+
+.hover-lift:hover {
+  @apply -translate-y-2;
+  box-shadow: 0 20px 40px rgba(255, 107, 53, 0.15);
+}
+
+.hover-scale {
+  @apply transition-transform duration-300;
+  will-change: transform;
+}
+
+.hover-scale:hover {
+  @apply scale-105;
+}
+
+/* Button styles - Production */
+.btn-primary {
+  @apply bg-primary text-white px-6 sm:px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:bg-primary-dark hover:shadow-lg active:scale-95;
+  will-change: transform;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary px-6 sm:px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:bg-primary/5 active:scale-95;
+  will-change: transform;
+}
+
+/* Pulse animation */
+.pulse-soft {
+  animation: pulseSoft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulseSoft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Loading state */
+.spinner {
+  animation: spin 1s linear infinite;
+  will-change: transform;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Fade in animations for different directions */
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  animation: fadeInRight 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Bounce animation */
+.bounce-subtle {
+  animation: bounceSubtle 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+
+@keyframes bounceSubtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .section-title {
+    @apply text-3xl;
+  }
+  
+  .section-padding {
+    @apply py-12 sm:py-16;
+  }
+}

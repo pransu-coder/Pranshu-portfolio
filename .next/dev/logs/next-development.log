@@ -1,0 +1,15 @@
+[00:00:00.704] Server  LOG     
+[00:00:00.704] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:00.705] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:00.705] Server  LOG        	- allowJs was set to true
+[00:00:00.705] Server  LOG        	- incremental was set to true
+[00:00:00.705] Server  LOG        	- include was updated to add '.next/types/**/*.ts'
+[00:00:00.705] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:00.705] Server  LOG        	- plugins was updated to add { name: 'next' }
+[00:00:00.705] Server  LOG     
+[00:00:00.795] Server  LOG      ✓ Ready in 549ms
+[00:00:18.697] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:18.697] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
