@@ -41,17 +41,20 @@ export default function Hero() {
             <p className="text-primary text-xs sm:text-sm font-bold mb-3 sm:mb-4 blur-fade tracking-widest uppercase" style={{ animationDelay: '0.2s' }}>
               Welcome, I'm
             </p>
-            <h1 className="section-title mb-4 blur-fade text-foreground leading-tight" style={{ animationDelay: '0.3s' }}>
-              Pranshu<br />Sharma
-            </h1>
+           <h1 className="section-title mb-4 blur-fade leading-tight text-2xl sm:text-3xl" style={{ animationDelay: '0.3s' }}>
+    <span className="text-orange-500">
+        Pranshu 
+    </span>Sharma
+   
+</h1>
             <p className="text-xl sm:text-2xl font-medium text-foreground-secondary mb-4 sm:mb-6 blur-fade" 
               style={{ animationDelay: '0.4s' }}>
-              Social Media Manager <span className="text-primary font-bold">&</span> <span className="text-gradient-secondary">Content Strategist</span>
+              Social Media Manager <span className="text-primary font-bold">&</span> <span className="text-gradient-secondary">Frontend Developer</span>
             </p>
-            <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
-              style={{ animationDelay: '0.5s' }}>
-              I help brands craft compelling narratives and build authentic communities that drive real engagement and measurable growth.
-            </p>
+          <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
+    style={{ animationDelay: '0.5s' }}>
+    I specialize in both <strong>strategic Social Media Management</strong> and <strong>Frontend Development</strong> using <strong>Next.js</strong>. My approach is to take compelling <strong>brand narratives</strong> and transform them into two things: <strong>authentic online communities</strong> that drive engagement, and <strong>high-performance, scalable web experiences</strong> built with Next.js. I ensure that both my technical solutions and content strategies are centered around delivering real, <strong>measurable growth</strong> and meaningful user interaction.
+</p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 blur-fade" style={{ animationDelay: '0.6s' }}>
               <a
@@ -62,7 +65,7 @@ export default function Hero() {
                 <ArrowRight size={18} className="hidden sm:inline" />
               </a>
               <a
-                href="/cv.pdf"
+                href="/Pranshu Resume Editable.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 border-2 border-primary text-primary hover:bg-primary/5 font-bold rounded-full transition-all hover:shadow-md text-sm sm:text-base"
               >
                 Download CV
@@ -89,7 +92,7 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/professional-portrait-of-social-media-manager.jpg"
+                src="/Pranshu.jpeg"
                 alt="Pranshu Sharma"
                 width={400}
                 height={400}

@@ -23,11 +23,20 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Image placeholder with overlay effect */}
-      <div className={`h-48 flex items-center justify-center text-gray-400 font-bold text-center p-4 ${project.bg} relative overflow-hidden transition-all duration-300`}>
-        <div className="text-sm md:text-base z-10 transition-all duration-300 group-hover:scale-110">{project.visual}</div>
-        <div className={`absolute inset-0 bg-black transition-opacity duration-300 ${isHovered ? 'opacity-20' : 'opacity-0'}`} />
-      </div>
+     
+
+<div className={`h-48 flex items-center justify-center ${project.bg} relative overflow-hidden transition-all duration-300`}>
+    
+    <Image
+        src={project.visual} 
+        alt={project.title}  
+        layout="fill"        
+        objectFit="fill"  
+        className={`z-10 transition-all duration-300 group-hover:scale-110`}
+        
+    />
+    <div className={`absolute inset-0 bg-black transition-opacity duration-300 ${isHovered ? 'opacity-20' : 'opacity-0'}`} />
+</div>
 
       {/* Content */}
       <div className="p-6">

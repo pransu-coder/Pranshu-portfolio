@@ -22,7 +22,7 @@ export default function Projects() {
           <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`} style={{ transitionDelay: '0.1s' }}>
-            Campaigns that drove real results and meaningful engagement
+            Projects that drove real results and meaningful engagement
           </p>
         </div>
 

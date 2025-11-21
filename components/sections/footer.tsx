@@ -5,9 +5,9 @@ import { Linkedin, Instagram, Twitter } from 'lucide-react'
 export default function Footer() {
   const currentYear = new Date().getFullYear()
   const socialLinks = [
-    { icon: Linkedin, label: 'LinkedIn', href: '#' },
-    { icon: Instagram, label: 'Instagram', href: '#' },
-    { icon: Twitter, label: 'Twitter', href: '#' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/pranshu-sharma-763910216/' },
+    { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/p_0564?igsh=NjI2OTNoZWc2YTB3&utm_source=qr' },
+    
   ]
 
   return (

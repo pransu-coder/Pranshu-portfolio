@@ -5,21 +5,21 @@ import { useScrollAnimation } from '@/hooks/use-scroll-animation'
 
 const testimonials = [
   {
-    quote: 'Since bringing Pranshu on, our organic engagement skyrocketed by 65%! Their strategy was focused, insightful, and perfectly captured our brand.',
-    author: 'Jenna K.',
-    role: 'Marketing Director, Evolve Fitness',
-    initials: 'J',
+    quote: 'Pranshu delivered our crypto transaction website exactly as we envisioned and helped us reach 2000+ active users. His execution, communication, and understanding of the crypto domain were outstanding. We are extremely satisfied with his work.',
+    author: 'Team Pixlpe',
+    role: '',
+    initials: 'P',
   },
   {
-    quote: 'The content is consistently high-quality, relevant, and stunning. Pranshu handles everything from concept to execution flawlessly.',
-    author: 'Aaron S.',
-    role: 'Owner, The Artisan Coffee Co.',
+    quote: 'Pranshu built our portfolio website Algocifer.com with clean design and smooth functionality. His execution, communication, and attention to detail were excellent. We are extremely satisfied with the final result.',
+    author: 'Algocifer',
+    role: 'Backend Developer ',
     initials: 'A',
   },
   {
-    quote: 'Professional, punctual, and highly skilled in paid social. Our campaign saw 25% lower CPA than previous attempts. Finally, clear ROI.',
-    author: 'Mark G.',
-    role: 'Head of Sales, Global Software',
+    quote: 'Pranshu designed and developed our Medicare website’s complete frontend UI and backend UI with clarity and precision. His execution, communication, and professionalism were excellent. We are extremely satisfied with his work.',
+    author: 'Team Medicare',
+    role: '',
     initials: 'M',
   },
 ]

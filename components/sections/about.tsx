@@ -10,8 +10,15 @@ const skills = [
   'Paid Media',
   'Google Analytics',
   'Trend Forecasting',
-  'Crisis Management',
+  'Canva Pro',
+  'VN',
   'Adobe Suite',
+  'HTML',
+  'CSS(Tailwind CSS)',
+  'JavaScript',
+  'ReactJS',
+  'Next.js',
+  'Shadcn/ui',
 ]
 
 export default function About() {
@@ -28,7 +35,7 @@ export default function About() {
           <h2 className={`section-title mb-4 sm:mb-6 transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            About Me
+            AboutMe
           </h2>
           <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
             isVisible ? 'opacity-100' : 'opacity-0'
@@ -43,9 +50,9 @@ export default function About() {
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
           }`}>
             {[
-              'With 3+ years of experience in social media management, I specialize in developing integrated campaigns that deliver measurable results. I bridge the gap between creative vision and analytical performance.',
-              'My expertise spans content strategy, paid media optimization (Meta, TikTok, Google), social listening, and community building across Instagram, LinkedIn, and emerging platforms.',
-              'I thrive on creating viral moments and converting digital engagement into real business value. Let\'s amplify your brand\'s voice together.'
+              'With 3+ years of integrated experience, I bridge the gap between strategic digital marketing and high-performance web development. I specialize in taking compelling brand narratives and transforming them into two synchronized assets:',
+              'Measurable Community Growth: Developing and executing integrated campaigns, content strategies, and paid media optimization across platforms like Instagram and LinkedIn, focusing on social listening and converting digital engagement into real business value.',
+              "Scalable Digital Experiences: Building and optimizing the brand's digital presence using   Next.js and the modern React ecosystem, ensuring that the frontend is not only fast and user-centric but also designed to amplify brand voice and measure campaign performance effectively"
             ].map((text, idx) => (
               <p 
                 key={idx}
@@ -73,7 +80,7 @@ export default function About() {
                 <Badge 
                   key={skill} 
                   className="bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-all duration-300 hover:scale-110 smooth-enter text-xs sm:text-sm"
-                  style={{ animationDelay: `${idx * 0.05}s` }}
+                   style={{ animationDelay: `${idx * 0.05}s` }}
                 >
                   {skill}
                 </Badge>
