@@ -53,7 +53,11 @@ export default function Hero() {
             </p>
           <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
     style={{ animationDelay: '0.5s' }}>
-    I specialize in both <strong>strategic Social Media Management</strong> and <strong>Frontend Development</strong> using <strong>Next.js</strong>. My approach is to take compelling <strong>brand narratives</strong> and transform them into two things: <strong>authentic online communities</strong> that drive engagement, and <strong>high-performance, scalable web experiences</strong> built with Next.js. I ensure that both my technical solutions and content strategies are centered around delivering real, <strong>measurable growth</strong> and meaningful user interaction.
+    I’m a <strong>Frontend Developer</strong> specializing in <strong>Next.js</strong> and <strong>React.js</strong>, where I transform ideas into fast, scalable and visually immersive web experiences. My development workflow revolves around building <strong>high-performance UI systems</strong> powered by <strong>Tailwind CSS</strong>, enhanced with smooth micro-interactions through <strong>Framer Motion</strong>, and 3D-powered visuals using <strong>Three.js</strong>.
+
+I build with a strong focus on real-world performance, accessibility and modern development practices — deploying projects seamlessly through <strong>Vercel</strong>, maintaining clean version control using <strong>Git & GitHub</strong>, and ensuring production-ready shipping with optimized builds and scalable architecture.
+
+My goal is to take concepts and convert them into <strong>pixel-perfect, responsive and enjoyable UI experiences</strong> that users love interacting with.
 </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 blur-fade" style={{ animationDelay: '0.6s' }}>
