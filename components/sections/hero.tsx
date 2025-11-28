@@ -53,11 +53,10 @@ export default function Hero() {
             </p>
           <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
     style={{ animationDelay: '0.5s' }}>
-    I’m a <strong>Frontend Developer</strong> specializing in <strong>Next.js</strong> and <strong>React.js</strong>, where I transform ideas into fast, scalable and visually immersive web experiences. My development workflow revolves around building <strong>high-performance UI systems</strong> powered by <strong>Tailwind CSS</strong>, enhanced with smooth micro-interactions through <strong>Framer Motion</strong>, and 3D-powered visuals using <strong>Three.js</strong>.
+   I’m a <strong>Frontend Developer</strong> skilled in <strong>Next.js</strong> and <strong>React.js</strong>, creating fast, scalable and visually refined interfaces. I build modern UIs using <strong>Tailwind CSS</strong>, craft smooth motion with <strong>Framer Motion</strong>, and develop immersive 3D visuals through <strong>Three.js</strong>.
 
-I build with a strong focus on real-world performance, accessibility and modern development practices — deploying projects seamlessly through <strong>Vercel</strong>, maintaining clean version control using <strong>Git & GitHub</strong>, and ensuring production-ready shipping with optimized builds and scalable architecture.
-
-My goal is to take concepts and convert them into <strong>pixel-perfect, responsive and enjoyable UI experiences</strong> that users love interacting with.
+My workflow is powered by <strong>TypeScript</strong>, <strong>Redux / Zustand</strong>, <strong>REST / GraphQL</strong>, along with performance-focused builds using <strong>Webpack</strong>, <strong>Babel</strong>, and <strong>ESLint / Prettier</strong>.
+I ship production-ready experiences with <strong>Git/GitHub</strong> versioning, seamless <strong>Vercel deployments</strong>, and UI optimizations including <strong>SSR, ISR, Lazy Loading</strong> and <strong>Code Splitting</strong> — ensuring speed, stability and a great user experience.
 </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 blur-fade" style={{ animationDelay: '0.6s' }}>
