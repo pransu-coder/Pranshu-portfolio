@@ -3,16 +3,7 @@ export const projectsData = {
     name: 'Web Dev. & UI/UX',
     icon: '💻',
     cards: [
-      {
-        title: 'Medicare - Medical Website',
-        desc: 'Designed and developed the complete website, including the full frontend UI and backend UI.',
-        visual: '/medicare.jpg',
-        bg: 'bg-indigo-300 dark:bg-indigo-600',
-        links: [
-          { text: 'Frontend UI', url: 'https://medicare-frontend-rj3y.vercel.app/' },
-          { text: 'Backend UI', url: 'https://medicare-backend-bslu.vercel.app/' },
-        ],
-      },
+      
       {
         title: 'Pixlpe',
         desc: 'Designed and developed the complete frontend with clean & responsive UI.',
@@ -31,6 +22,16 @@ export const projectsData = {
         links: [
           { text: 'Frontend UI', url: 'https://www.algocifer.com/' },
           
+        ],
+      },
+      {
+        title: 'Medicare - Medical Website',
+        desc: 'Designed and developed the complete website, including the full frontend UI and backend UI.',
+        visual: '/medicare.jpg',
+        bg: 'bg-indigo-300 dark:bg-indigo-600',
+        links: [
+          { text: 'Frontend UI', url: 'https://medicare-frontend-rj3y.vercel.app/' },
+          { text: 'Backend UI', url: 'https://medicare-backend-bslu.vercel.app/' },
         ],
       },
     ],
@@ -73,33 +74,6 @@ export const projectsData = {
           
         ],
       },
-    ],
-  },
-  thumbnails: {
-    name: 'YouTube Thumbnails',
-    icon: '🎬',
-    cards: [
-      {
-        title: 'Earning Thumbnail',
-        desc: '',
-        visual: '/img1.jpeg',
-        bg: 'bg-red-400 dark:bg-red-700',
-        links: [
-          { text: 'Design File', url: '/img1.jpeg' },
-         
-          
-        ],
-      },
-      
-      
-      {
-        title: 'Gaming Thumbnail',
-        desc: '',
-        visual: '/gaming.jpeg',
-        bg: 'bg-blue-400 dark:bg-blue-700',
-        links: [{ text: 'Design File', url: '/gaming.jpeg' }],
-      },
-      
     ],
   },
   
