@@ -4,21 +4,23 @@ import { Badge } from '@/components/ui/badge'
 import { useScrollAnimation } from '@/hooks/use-scroll-animation'
 
 const skills = [
-  'Content Strategy',
-  'Social Media SEO',
-  'Community Management',
-  'Paid Media',
-  'Google Analytics',
-  'Trend Forecasting',
-  'Canva Pro',
-  'VN',
-  'Adobe Suite',
-  'HTML',
-  'CSS(Tailwind CSS)',
-  'JavaScript',
+  'HTML5',
+  'CSS3',
+  'JavaScript (ES6+)',
   'ReactJS',
   'Next.js',
   'Shadcn/ui',
+  'TypeScript',
+  'Tailwind CSS',
+  'Bootstrap',
+  'Framer Motion',
+  'Three.js',
+  'GSAP',
+  'NPM, PNPM',
+  'GitHub',
+  'Vite',
+  'Vercel',
+  
 ]
 
 export default function About() {
@@ -40,7 +42,7 @@ export default function About() {
           <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`} style={{ transitionDelay: '0.1s' }}>
-            I blend creative storytelling with data-driven strategy to build brands that resonate.
+            I blend clean UI architecture with performance-driven development to craft interfaces that truly connect with users.
           </p>
         </div>
 
@@ -50,9 +52,9 @@ export default function About() {
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
           }`}>
             {[
-              'With 3+ years of integrated experience, I bridge the gap between strategic digital marketing and high-performance web development. I specialize in taking compelling brand narratives and transforming them into two synchronized assets:',
-              'Measurable Community Growth: Developing and executing integrated campaigns, content strategies, and paid media optimization across platforms like Instagram and LinkedIn, focusing on social listening and converting digital engagement into real business value.',
-              "Scalable Digital Experiences: Building and optimizing the brand's digital presence using   Next.js and the modern React ecosystem, ensuring that the frontend is not only fast and user-centric but also designed to amplify brand voice and measure campaign performance effectively"
+              'With 3+ years of product-focused frontend experience, I bridge the gap between user-centric interface design and high-performance web engineering. I specialize in taking ideas and transforming them into two synchronized outcomes:',
+              'Interactive User Engagement: Designing and developing seamless interfaces with React & Next.js, crafting responsive layouts with Tailwind CSS, enhancing usability through design systems, and leveraging motion libraries for intuitive, meaningful user interaction.',
+              "Scalable Digital Experiences: Building and optimizing production-ready frontends using the modern React ecosystem — ensuring speed, accessibility, SEO-readiness, and performance through SSR/ISR, code-splitting, and client-server optimized architecture."
             ].map((text, idx) => (
               <p 
                 key={idx}
