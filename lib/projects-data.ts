@@ -3,6 +3,16 @@ export const projectsData = {
     name: 'Web Dev. & UI/UX',
     icon: '💻',
     cards: [
+      {
+        title: 'GoldenBangle(New Project)',
+        desc: 'Designed and developed the complete frontend with clean & responsive UI.',
+        visual: '/pixlpe.jpg',
+        bg: 'bg-emerald-300 dark:bg-emerald-600',
+        links: [
+          { text: 'Frontend UI', url: 'https://pranshu-golden-bangle.vercel.app/' },
+          
+        ],
+      },
       
       {
         title: 'Pixlpe',
