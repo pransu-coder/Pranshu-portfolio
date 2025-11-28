@@ -55,7 +55,7 @@ export default function Hero() {
     style={{ animationDelay: '0.5s' }}>
    I’m a <strong>Frontend Developer</strong> skilled in <strong>Next.js</strong> and <strong>React.js</strong>, creating fast, scalable and visually refined interfaces. I build modern UIs using <strong>Tailwind CSS</strong>, craft smooth motion with <strong>Framer Motion</strong>, and develop immersive 3D visuals through <strong>Three.js</strong>.
 
-My workflow is powered by <strong>TypeScript</strong>, <strong>Redux / Zustand</strong>, <strong>REST / GraphQL</strong>, along with performance-focused builds using <strong>Webpack</strong>, <strong>Babel</strong>, and <strong>ESLint / Prettier</strong>.
+My workflow is powered by <strong>TypeScript</strong>, <strong>Redux / Zustand</strong>, <strong>REST / GraphQL</strong>.
 I ship production-ready experiences with <strong>Git/GitHub</strong> versioning, seamless <strong>Vercel deployments</strong>, and UI optimizations including <strong>SSR, ISR, Lazy Loading</strong> and <strong>Code Splitting</strong> — ensuring speed, stability and a great user experience.
 </p>
 
