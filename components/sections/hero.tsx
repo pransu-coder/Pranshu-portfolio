@@ -49,7 +49,7 @@ export default function Hero() {
 </h1>
             <p className="text-xl sm:text-2xl font-medium text-foreground-secondary mb-4 sm:mb-6 blur-fade" 
               style={{ animationDelay: '0.4s' }}>
-              Social Media Manager <span className="text-primary font-bold"></span> <span className="text-gradient-secondary"></span>
+              Social Media Manager. <span className="text-primary font-bold"></span> <span className="text-gradient-secondary"></span>
             </p>
          <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
     style={{ animationDelay: '0.5s' }}>
