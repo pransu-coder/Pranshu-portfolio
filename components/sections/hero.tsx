@@ -69,7 +69,7 @@ I ship production-ready campaigns with <strong>Meta Business Suite</strong> sche
                 <ArrowRight size={18} className="hidden sm:inline" />
               </a>
               <a
-                href="/Pranshu Resume1.pdf"
+                href="/Pranshu Sharma - Social Media Manager.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 border-2 border-primary text-primary hover:bg-primary/5 font-bold rounded-full transition-all hover:shadow-md text-sm sm:text-base"
               >
                 Download CV
