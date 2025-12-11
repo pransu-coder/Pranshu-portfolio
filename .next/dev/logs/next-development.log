@@ -1,0 +1,433 @@
+[00:00:00.715] Server  LOG      ✓ Ready in 497ms
+[00:00:06.101] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.101] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.456] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.456] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.503] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.503] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.513] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.514] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.594] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.594] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.614] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.614] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:06.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:00.983] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:00.983] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.061] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.062] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.137] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.137] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.147] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.147] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.237] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.237] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.263] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.263] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:01.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:07.349] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:07.349] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:07.349] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:07.349] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:07.349] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:07.349] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:08.415] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:02:08.415] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:54.721] Server  LOG      ✓ Compiled in 105ms
+[00:07:54.761] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:54.761] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:54.772] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:54.773] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:08:33.722] Server  LOG      ✓ Compiled in 61ms
+[00:09:19.014] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.015] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.126] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.126] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.302] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.302] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.311] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.311] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.379] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.379] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:09:19.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:42.085] Server  LOG      ✓ Compiled in 63ms
+[00:13:43.032] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'cards')
+[00:14:41.676] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:41.700] Server  LOG      ✓ Compiled in 54ms
+[00:14:41.840] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.840] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.933] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.933] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.947] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.947] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.971] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.971] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.986] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:41.986] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:42.163] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:42.163] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:42.194] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:42.194] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:14:42.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:45.747] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:14:45.747] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:14:45.747] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:14:45.747] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:14:45.747] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:14:45.748] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:10.656] Server  LOG      ✓ Compiled in 54ms
+[00:15:11.031] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:11.031] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:23.485] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.486] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.532] Server  WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:23.532] Server  WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:23.573] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.573] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.593] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.626] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.626] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.679] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.679] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:23.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:23.838] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:15:23.838] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:19:16.817] Server  LOG      ✓ Compiled in 59ms
+[00:19:16.842] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:19:16.842] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:19:31.949] Server  LOG      ✓ Compiled in 46ms
+[00:21:10.048] Server  LOG      ✓ Compiled in 55ms
+[00:21:45.992] Server  LOG      ✓ Compiled in 68ms
+[00:21:57.027] Server  LOG      ✓ Compiled in 47ms
+[00:22:05.812] Server  LOG      ✓ Compiled in 43ms
+[00:22:13.475] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:13.475] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:13.475] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:13.475] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:13.475] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:13.475] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:18.263] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.263] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.306] Server  WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:18.307] Server  WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:18.358] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.358] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.416] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.416] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.422] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.423] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:22:18.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:18.735] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:18.735] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:18.735] Browser WARN    Image with src "/pixlpe.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:20.204] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:20.204] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:20.204] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:20.204] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:20.204] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:22:20.204] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:26:52.175] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.175] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.254] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.254] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.433] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.433] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.448] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.448] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:52.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:52.682] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:26:52.682] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:28:06.613] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:30:02.257] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.257] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.321] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.322] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.376] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.376] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.383] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.383] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:02.510] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:02.627] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:30:02.627] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:08.303] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:34:56.005] Server  LOG      ✓ Compiled in 81ms
+[00:35:04.713] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.713] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.758] Server  WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.759] Server  WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.759] Server  WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.760] Server  WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.760] Server  WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.760] Server  WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:04.813] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.814] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.868] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.868] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.878] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.878] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:04.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:05.225] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.225] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.225] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.225] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.225] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.225] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:05.480] Browser WARN    Image with src "/res.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:35:27.033] Server  LOG      ✓ Compiled in 54ms
+[00:35:29.335] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:35:29.335] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:52.921] Server  LOG      ✓ Compiled in 46ms
+[00:39:38.025] Server  LOG      ✓ Compiled in 131ms
+[00:39:54.798] Server  LOG      ✓ Compiled in 74ms
+[00:40:00.270] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.270] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.320] Server  WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.321] Server  WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.322] Server  WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.322] Server  WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.322] Server  WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.322] Server  WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.400] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.400] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.550] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.550] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.564] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.564] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:00.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:00.796] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.796] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.796] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.796] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.796] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:00.796] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:05.079] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:05.079] Browser WARN    Image with src "/pixlpe.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:24.985] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:24.985] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.052] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.053] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.069] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.070] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.110] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.110] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:25.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:25.408] Browser WARN    Image with src "/res.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.408] Browser WARN    Image with src "/res.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.408] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.408] Browser WARN    Image with src "/AIR PODS.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.408] Browser WARN    Image with src "/amz.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.408] Browser WARN    Image with src "/amz.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:40:25.639] Browser WARN    Image with src "/res.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:46:38.436] Server  LOG      ✓ Compiled in 44ms
