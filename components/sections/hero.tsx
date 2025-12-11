@@ -49,15 +49,16 @@ export default function Hero() {
 </h1>
             <p className="text-xl sm:text-2xl font-medium text-foreground-secondary mb-4 sm:mb-6 blur-fade" 
               style={{ animationDelay: '0.4s' }}>
-              Frontend Developer <span className="text-primary font-bold"></span> <span className="text-gradient-secondary">(React Developer)</span>
+              Social Media Manager <span className="text-primary font-bold"></span> <span className="text-gradient-secondary"></span>
             </p>
-          <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
+         <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
     style={{ animationDelay: '0.5s' }}>
-   I’m a <strong>Frontend Developer</strong> skilled in <strong>Next.js</strong> and <strong>React.js</strong>, creating fast, scalable and visually refined interfaces. I build modern UIs using <strong>Tailwind CSS</strong>, craft smooth motion with <strong>Framer Motion</strong>, and develop immersive 3D visuals through <strong>Three.js</strong>.
+   I’m a <strong>Social Media Manager</strong> skilled in <strong>Content Strategy</strong> and <strong>Brand Growth</strong>, creating fast, scalable and visually refined digital content. I craft engaging visuals using <strong>Canva</strong>, produce smooth edits with <strong>CapCut</strong>, and build immersive short-form experiences through <strong>Reels & Shorts</strong>.
 
-My workflow is powered by <strong>TypeScript</strong>, <strong>Redux / Zustand</strong>, <strong>REST / GraphQL</strong>.
-I ship production-ready experiences with <strong>Git/GitHub</strong> versioning, seamless <strong>Vercel deployments</strong>, and UI optimizations including <strong>SSR, ISR, Lazy Loading</strong> and <strong>Code Splitting</strong> — ensuring speed, stability and a great user experience.
+My workflow is powered by <strong>Trend Research</strong>, <strong>Content Planning</strong>, <strong>Analytics & Insights</strong>.
+I ship production-ready campaigns with <strong>Meta Business Suite</strong> scheduling, seamless <strong>Cross-Platform Publishing</strong>, and performance optimizations including <strong>A/B Testing, SEO Captions</strong> and <strong>Audience Targeting</strong> — ensuring reach, consistency and a great viewer experience.
 </p>
+
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 blur-fade" style={{ animationDelay: '0.6s' }}>
               <a
