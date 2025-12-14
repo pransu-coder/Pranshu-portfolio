@@ -4,23 +4,23 @@ import { Badge } from '@/components/ui/badge'
 import { useScrollAnimation } from '@/hooks/use-scroll-animation'
 
 const skills = [
-  'Content Strategy',
-  'Social Media Management',
-  'Instagram Growth',
-  'Reels Editing',
-  'Short-Form Video Editing',
-  'Canva',
-  'CapCut / VN Editor',
-  'Content Planning',
-  'Trend Research',
-  'Copywriting',
-  'Brand Identity',
-  'Analytics & Insights',
-  'Hashtag Strategy',
-  'Meta Business Suite',
-  'Creator Studio',
-  'Scheduling Tools',
-  'Community Engagement',
+  'React',
+  'Next.js',
+  'TypeScript',
+  'JavaScript (ES6+)',
+  'Tailwind CSS',
+  'HTML5 & CSS3',
+  'Redux / Zustand',
+  'React Query',
+  'Git & GitHub',
+  'Node.js',
+  'RESTful APIs',
+  'Framer Motion',
+  'Responsive Design',
+  'Web Accessibility (a11y)',
+  'Performance Optimization',
+  'VS Code',
+  'Figma',
 ]
 
 
@@ -43,7 +43,7 @@ export default function About() {
       <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`} style={{ transitionDelay: '0.1s' }}>
-        I blend creative storytelling with strategy-driven content to build social media experiences that connect, engage, and convert.
+        I transform complex problems into elegant, efficient, and easy-to-use web solutions.
       </p>
     </div>
 
@@ -53,12 +53,13 @@ export default function About() {
       <div className={`space-y-4 sm:space-y-6 transition-all duration-700 ${
         isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
       }`}>
+
         {[
-          'With hands-on experience in creating high-impact content, I specialize in crafting platform-optimized social media strategies that strengthen brand identity and audience connection. My approach blends creativity with data-backed decision-making to achieve consistent growth.',
+          'With a strong foundation in modern web development, I specialize in building scalable and maintainable frontend architectures. With 3 years of freelancing experience, I have worked with diverse clients across various industries, delivering high-quality web solutions. My journey involves a constant pursuit of learning new technologies and best practices to deliver exceptional results.',
           
-          'Engagement-Driven Content: I conceptualize and edit impactful Reels/Shorts, design clean visuals with Canva, research trends, write compelling captions, and strategically plan content that resonates with the target audience across platforms like Instagram, YouTube, and LinkedIn.',
+          'Component-Driven Development: I excel at creating reusable, testable, and accessible components using React and TypeScript. I pay close attention to UI/UX details, ensuring that every interaction feels smooth and intuitive across all devices.',
           
-          'Growth-Focused Social Presence: I plan, manage, and optimize full content pipelines — from scheduling through Meta Business Suite to analyzing insights, running A/B variations, and refining performance to deliver consistent reach, retention, and measurable results.'
+          'Performance & Optimization: I believe that a great user experience starts with performance. I optimize applications for speed and efficiency, utilizing techniques like code splitting, lazy loading, and server-side rendering with Next.js to achieve optimal Core Web Vitals.'
         ].map((text, idx) => (
           <p 
             key={idx}
@@ -76,11 +77,11 @@ export default function About() {
 
       {/* Right Column - Skills */}
       <div 
-        className={`bg-gradient-to-br from-background to-background-secondary rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-primary/10 transition-all duration-700 hover:shadow-lg hover:shadow-primary/10 ${
+        className={`bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-primary/10 transition-all duration-700 hover:shadow-lg hover:shadow-primary/10 ${
           isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
         }`}
       >
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-gradient">Core Skills</h3>
+        <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-primary">Tech Stack</h3>
         <div className="flex flex-wrap gap-2 sm:gap-3">
           {skills.map((skill, idx) => (
             <Badge 

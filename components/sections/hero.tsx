@@ -31,8 +31,9 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-16 sm:pt-20 pb-12 sm:pb-16 md:pb-20">
-      <div className="absolute top-0 right-0 w-64 h-64 sm:w-96 sm:h-96 bg-accent/5 rounded-full blur-3xl -z-10" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 sm:w-96 sm:h-96 bg-primary/5 rounded-full blur-3xl -z-10" />
+      {/* Clean background - no gradients */}
+      <div className="absolute top-0 right-0 w-64 h-64 sm:w-96 sm:h-96 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-0 left-0 w-64 h-64 sm:w-96 sm:h-96 rounded-full blur-3xl -z-10" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
@@ -41,33 +42,38 @@ export default function Hero() {
             <p className="text-primary text-xs sm:text-sm font-bold mb-3 sm:mb-4 blur-fade tracking-widest uppercase" style={{ animationDelay: '0.2s' }}>
               Welcome, I'm
             </p>
+
            <h1 className="section-title mb-4 blur-fade leading-tight text-2xl sm:text-3xl" style={{ animationDelay: '0.3s' }}>
-    <span className="text-orange-500">
+    <span className="text-primary">
         Pranshu 
     </span>Sharma
    
 </h1>
-            <p className="text-xl sm:text-2xl font-medium text-orange-500 text-foreground-secondary mb-4 sm:mb-6 blur-fade" 
+            <p className="text-xl sm:text-2xl font-medium text-primary text-foreground-secondary mb-4 sm:mb-6 blur-fade" 
               style={{ animationDelay: '0.4s' }} >
-             Creative Social Media Manager <span className="text-primary font-bold"></span> <span className="text-gradient-secondary"></span>
+             Frontend Developer <span className="text-primary font-bold"></span>
             </p>
          <p className="text-base sm:text-lg text-foreground-secondary mb-6 sm:mb-8 max-w-xl leading-relaxed blur-fade"
     style={{ animationDelay: '0.5s' }}>
-   I’m a <strong>Social Media Manager</strong> skilled in <strong>Content Strategy</strong> and <strong>Brand Growth</strong>, creating fast, scalable and visually refined digital content. I craft engaging visuals using <strong>Canva</strong>, produce smooth edits with <strong>CapCut</strong>, and build immersive short-form experiences through <strong>Reels & Shorts</strong>.
+   I’m a <strong>Frontend Developer</strong> passionate about building accessible, pixel-perfect user interfaces that blend art and code. I specialize in the <strong>React ecosystem</strong>, crafting performant web experiences with modern tools.
 
-My workflow is powered by <strong>Trend Research</strong>, <strong>Content Planning</strong>, <strong>Analytics & Insights</strong>.
-I ship production-ready campaigns with <strong>Meta Business Suite</strong> scheduling, seamless <strong>Cross-Platform Publishing</strong>, and performance optimizations including <strong>A/B Testing, SEO Captions</strong> and <strong>Audience Targeting</strong> — ensuring reach, consistency and a great viewer experience.
+My workflow is powered by <strong>Clean Code</strong>, <strong>Component-Driven Development</strong>, and <strong>Continuous Integration</strong>.
+I ship production-ready applications with <strong>React.js</strong>, using robust state management and styling solutions like <strong>Tailwind CSS</strong> to ensure scalability and a seamless user experience.
 </p>
 
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 blur-fade" style={{ animationDelay: '0.6s' }}>
+
+
               <a
                 href="#projects"
-                className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-primary hover:bg-primary-dark text-white font-bold rounded-full transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-primary/30 text-sm sm:text-base"
+                className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-primary hover:bg-primary-dark text-white font-bold rounded-full transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-primary/20 text-sm sm:text-base"
               >
                 View My Work
                 <ArrowRight size={18} className="hidden sm:inline" />
               </a>
+
+
               <a
                 href="/Pranshu Sharma - Social Media Manager.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 border-2 border-primary text-primary hover:bg-primary/5 font-bold rounded-full transition-all hover:shadow-md text-sm sm:text-base"
@@ -88,11 +94,12 @@ I ship production-ready campaigns with <strong>Meta Business Suite</strong> sche
               transition: 'transform 0.1s ease-out'
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl sm:rounded-3xl blur-2xl" />
+            {/* Clean background - no gradients */}
+
             <div 
-              className="relative w-full h-full rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-primary/20 flex items-center justify-center bg-background-secondary"
+              className="relative w-full h-full rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-primary/20 flex items-center justify-center bg-white"
               style={{
-                boxShadow: '0 20px 40px rgba(255, 107, 53, 0.15)'
+                boxShadow: '0 20px 40px rgba(124, 58, 237, 0.15)'
               }}
             >
               <Image

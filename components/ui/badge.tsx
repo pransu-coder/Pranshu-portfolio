@@ -1,10 +1,12 @@
+
 interface BadgeProps {
   children: React.ReactNode
   variant?: 'default' | 'secondary'
   className?: string
+  style?: React.CSSProperties // Added style prop
 }
 
-export function Badge({ children, variant = 'default', className = '' }: BadgeProps) {
+export function Badge({ children, variant = 'default', className = '', style }: BadgeProps) {
   const baseStyles = 'inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold'
   const variants = {
     default: 'bg-primary/20 text-primary border border-primary/30',
@@ -12,8 +14,9 @@ export function Badge({ children, variant = 'default', className = '' }: BadgePr
   }
 
   return (
-    <span className={`${baseStyles} ${variants[variant]} ${className}`}>
+    <span className={`${baseStyles} ${variants[variant]} ${className}`} style={style}>
       {children}
     </span>
   )
 }
+

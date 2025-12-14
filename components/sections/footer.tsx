@@ -1,11 +1,12 @@
 'use client'
 
-import { Linkedin, Instagram } from 'lucide-react'
+import { Linkedin, Instagram} from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
   const socialLinks = [
     { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/pranshu-sharma-763910216/' },
+    
     { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/p_0564?igsh=NjI2OTNoZWc2YTB3&utm_source=qr' },
   ]
 
@@ -18,7 +19,7 @@ export default function Footer() {
           {/* Profile Info */}
           <div className="text-center sm:text-left">
             <p className="text-foreground-primary font-semibold text-sm sm:text-base">Pranshu Sharma</p>
-            <p className="text-foreground-tertiary text-xs sm:text-sm">Social Media Manager · Content & Strategy</p>
+            <p className="text-foreground-tertiary text-xs sm:text-sm">Frontend Developer</p>
             <p className="text-foreground-tertiary font-medium text-xs sm:text-sm mt-2">
               © {currentYear} Pranshu Sharma. All rights reserved.
             </p>
@@ -50,3 +51,4 @@ export default function Footer() {
     </footer>
   )
 }
+

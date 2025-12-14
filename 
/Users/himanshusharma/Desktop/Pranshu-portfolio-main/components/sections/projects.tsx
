@@ -6,10 +6,12 @@ import { projectsData } from '@/lib/projects-data'
 import { useScrollAnimation } from '@/hooks/use-scroll-animation'
 
 export default function Projects() {
-
   const [activeCategory, setActiveCategory] = useState('webdev')
   const categories = Object.entries(projectsData)
   const { ref, isVisible } = useScrollAnimation()
+
+  // Get the current category data safely
+  const currentCategoryData = projectsData[activeCategory as keyof typeof projectsData]
 
   return (
     <section ref={ref} id="projects" className="section-padding bg-background">
@@ -23,7 +25,7 @@ export default function Projects() {
           <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`} style={{ transitionDelay: '0.1s' }}>
-            Projects that drove real results and meaningful engagement
+            Projects that showcase my frontend development skills
           </p>
         </div>
 
@@ -50,7 +52,7 @@ export default function Projects() {
         <div className={`grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 transition-all duration-500 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}>
-          {projectsData[activeCategory as keyof typeof projectsData].cards.map((project, idx) => (
+          {currentCategoryData?.cards.map((project, idx) => (
             <div 
               key={idx}
               className="smooth-enter"
@@ -64,3 +66,4 @@ export default function Projects() {
     </section>
   )
 }
+

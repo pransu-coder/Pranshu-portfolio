@@ -8,9 +8,7 @@ const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
-   { href: '#videos', label: 'Videos' },
   { href: '#contact', label: 'Contact' },
- 
 ]
 
 export default function Header() {
@@ -32,7 +30,7 @@ export default function Header() {
         : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5 flex justify-between items-center">
-        <Link href="#home" className="text-2xl sm:text-3xl font-bold font-display text-gradient hover:scale-110 active:scale-95 transition-transform duration-300 will-change-transform">
+        <Link href="#home" className="text-2xl sm:text-3xl font-bold font-display text-primary hover:scale-110 active:scale-95 transition-transform duration-300 will-change-transform">
           P.S
         </Link>
 
