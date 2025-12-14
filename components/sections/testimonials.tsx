@@ -3,28 +3,32 @@
 import TestimonialCard from '@/components/ui/testimonial-card'
 import { useScrollAnimation } from '@/hooks/use-scroll-animation'
 
+
+
+
+
 const testimonials = [
+
+
   {
-    quote: 'Pranshu delivered our crypto transaction website exactly as we envisioned and helped us reach 4000+ active users. His execution, communication, and understanding of the crypto domain were outstanding. We are extremely satisfied with his work.',
-    author: 'Team Pixlpe',
-    role: '',
-    initials: 'P',
+    quote: 'Pranshu built an outstanding crypto exchange platform with real-time trading and secure wallet integration. The interface improved our user experience.',
+    author: 'Pixlpe',
+    role: 'Tech Team',
+    initials: 'PX',
   },
- {
-  quote: 'Pranshu created a focused social media strategy and high-quality short-form videos for BillKit. His reels, editing, and trend-led ideas significantly increased our engagement and follower growth. We are extremely satisfied with his work.',
-  author: 'BillKit',
-  role: 'Co-founder',
-  initials: 'B',
-},
-{
-  quote: 'Pranshu helped improve Algocifer’s website traffic with smart optimizations and a cleaner user experience. His work made the site faster and boosted our organic reach.We are extremely satisfied with his work.',
-  author: 'Algocifer',
-  role: 'Team Algocifer',
-  initials: 'A',
-}
 
-
-
+  {
+    quote: 'The portfolio website Pranshu created showcases incredible 3D animations and smooth interactions. The modern design perfectly represents our creative vision.',
+    author: 'Algocifer',
+    role: 'Creative Team',
+    initials: 'AL',
+  },
+  {
+    quote: 'Pranshu created an outstanding billing system that streamlined our payment processes. The secure interface reduced our processing time by 50%.',
+    author: 'BILLKIT',
+    role: 'Finance Team',
+    initials: 'BK',
+  }
 ]
 
 export default function Testimonials() {
@@ -34,15 +38,17 @@ export default function Testimonials() {
     <section ref={ref} className="section-padding bg-background-secondary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
+
           <h2 className={`section-title mb-4 sm:mb-6 transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            Client Stories
+            Team Feedback
           </h2>
+
           <p className={`text-base sm:text-lg md:text-xl text-foreground-secondary transition-all duration-700 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`} style={{ transitionDelay: '0.1s' }}>
-            Feedback from brands I've worked with
+            Professional testimonials from the Pixlpe and Algocifer teams on our development projects
           </p>
         </div>
 
@@ -63,3 +69,4 @@ export default function Testimonials() {
     </section>
   )
 }
+

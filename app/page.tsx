@@ -5,7 +5,6 @@ import Projects from '@/components/sections/projects'
 import Testimonials from '@/components/sections/testimonials'
 import Contact from '@/components/sections/contact'
 import Footer from '@/components/sections/footer'
-import VideoSection from '@/components/sections/VideoSection'
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <Header />
       <Hero />
       <Projects />
-      <VideoSection />
       <About />
       <Testimonials />
       <Contact />
@@ -21,3 +19,4 @@ export default function Home() {
     </main>
   )
 }
+

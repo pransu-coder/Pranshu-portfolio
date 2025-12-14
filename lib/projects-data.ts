@@ -1,66 +1,95 @@
-export const projectsData = {
-  marketing: {
-    
-     name: 'Canva designs',
-    icon: '🎨',
-    cards: [
-      {
-        title: "Pranshu's Resturant Edit",
-        desc: 'Canva-edited Product showcase of my brand THE REAL BIRYANI.',
-        visual: '/res.jpg',
-        bg: 'bg-purple-300 dark:bg-purple-600',
-        links: [{ text: 'Design File', url: '/res.jpg' },
-           { text: 'Animation file', url: '/res.mp4' },
 
+// Fix for projects data structure
+export const projectsData = {
+  webdev: {
+    name: "Web Development",
+    icon: "💻",
+    cards: [
+
+
+      {
+        title: "Pixlpe.com",
+        desc: "Cryptocurrency exchange platform with real-time trading, secure wallets, and advanced security features.",
+        visual: "/pixlpe.jpg",
+        bg: "bg-blue-300 dark:bg-blue-600",
+        links: [
+          { text: "Live Demo", url: "https://pixlpe.com/" },
+          ,
         ],
       },
       {
-        title: 'AIR PODS MAX PINK ',
-        desc: 'Canva-edited AirPods Max Pink showcasing a modern and sleek design.',
-        visual: '/AIR PODS.jpg',
-        bg: 'bg-cyan-300 dark:bg-cyan-600',
+        title: "Algocifer.com",
+        desc: "Portfolio website featuring 3D animations, smooth interactions, and immersive user experience.",
+        visual: "/algo.jpg",
+        bg: "bg-purple-300 dark:bg-purple-600",
         links: [
-          { text: 'Design File', url: '/AIR PODS.jpg' },
-          { text: 'Animation file', url: '/AIR PODS.mp4' },
+          { text: "Live Demo", url: "https://www.algocifer.com/" },
           
-          
+        ],
+      },
+
+      {
+        title: "GoldenBangle",
+        desc: "E-commerce platform for jewelry with secure payments and user-friendly shopping experience.",
+        visual: "/gold.jpg",
+        bg: "bg-green-300 dark:bg-green-600",
+        links: [
+          { text: "Live Demo", url: "https://pranshu-golden-bangle.vercel.app/" },
+         
         ],
       },
       {
-        title: ' Banner Edit ',
-        desc: 'Canva-edited of a Banner showcasing a modern and sleek design.',
-        visual: '/amz.jpg',
-        bg: 'bg-cyan-300 dark:bg-cyan-600',
+        title: "Orioninaht.com",
+        desc: "Designed and developed a responsive corporate website to showcase company services, business information, and contact details.",
+        visual: "/ori.png",
+        bg: "bg-green-300 dark:bg-green-600",
         links: [
-          { text: 'Design File', url: '/amz.jpg' },
-          { text: 'Animation file', url: '/amz.mp4' },
-          
-          
+          { text: "Live Demo", url: "https://www.orioninaht.com/" },
+         
         ],
       },
+       {
+        title: "Beginsfly.com",
+        desc: "Designed and developed a responsive corporate website to showcase company services, business information, and contact details.",
+        visual: "/beg.png",
+        bg: "bg-green-300 dark:bg-green-600",
+        links: [
+          { text: "Live Demo", url: "https://www.beginsfly.com/" },
+         
+        ],
+      },
+       {
+        title: "Currency Converter",
+        desc: "A responsive online currency converter tool that takes user input and shows conversion between different world currencies.",
+        visual: "cur.png",
+        bg: "bg-green-300 dark:bg-green-600",
+        links: [
+          { text: "Live Demo", url: "https://pransu-coder.github.io/CurrencyConverter/" },
+         
+        ],
+      },  
+      {
+        title: "WeatherApp",
+        desc: "A weather application that displays real-time weather information and dynamically changes the background based on current weather conditions.",
+        visual: "we.png",
+        bg: "bg-green-300 dark:bg-green-600",
+        links: [
+          { text: "Live Demo", url: "https://pransu-coder.github.io/WeatherApp/" },
+         
+        ],
+      },
+       {
+        title: "Age Calculator",
+        desc: "An age calculator web application that calculates a user’s exact age in years, months, and days based on the selected date of birth.",
+        visual: "age.png",
+        bg: "bg-green-300 dark:bg-green-600",
+        links: [
+          { text: "Live Demo", url: "https://pransu-coder.github.io/agecalculator/" },
+         
+        ],
+      },
+      
     ],
   },
  
-
-   
-    posters: {
-   name: 'Markeing & Growth',
-    icon: '💻',
-    cards: [
-       {
-        title: 'Pixlpe',
-        desc: 'I brought high-quality users to Pixlpe, with 90% active, 75% regularly trading, and an 80% retention rate, resulting in strong and consistent transaction activity.',
-        visual: '/pixlpe.jpg',
-        bg: 'bg-pink-300 dark:bg-pink-600',
-        links: [
-          { text: 'View Info', url: '/pixlpe1.jpg' },
-          
-        ],
-      },
-
-    ],
-  },
-  }
-  
-  
-
+};
